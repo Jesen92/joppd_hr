@@ -1,0 +1,97 @@
+package joppd;
+import javax.xml.bind.annotation.*;
+
+@XmlAccessorType(XmlAccessType.FIELD)
+public class GeneracijskaSolidarnost {
+
+	@XmlElement(name = "P1")
+	public Double p1;
+	
+	@XmlElement(name = "P2")
+	public Double p2;
+	
+	@XmlElement(name = "P3")
+	public Double p3;
+	
+	@XmlElement(name = "P4")
+	public Double p4;
+	
+	@XmlElement(name = "P5")
+	public Double p5;
+	
+	@XmlElement(name = "P6")
+	public Double p6;
+	
+	@XmlElement(name = "P7")
+	public Double p7;
+	
+	
+	
+	public Double getP1() {
+		return p1;
+	}
+
+	public void setP1(Double p1) {
+		this.p1 = p1;
+	}
+
+	public Double getP2() {
+		return p2;
+	}
+
+	public void setP2(Double p2) {
+		this.p2 = p2;
+	}
+
+	public Double getP3() {
+		return p3;
+	}
+
+	public void setP3(Double p3) {
+		this.p3 = p3;
+	}
+
+	public Double getP4() {
+		return p4;
+	}
+
+	public void setP4(Double p4) {
+		this.p4 = p4;
+	}
+
+	public Double getP5() {
+		return p5;
+	}
+
+	public void setP5(Double p5) {
+		this.p5 = p5;
+	}
+
+	public Double getP6() {
+		return p6;
+	}
+
+	public void setP6(Double p6) {
+		this.p6 = p6;
+	}
+
+	public Double getP7() {
+		return p7;
+	}
+
+	public void setP7(Double p7) {
+		this.p7 = p7;
+	}
+
+	@Override
+	public String toString() {
+	return "P1 = "+p1+System.lineSeparator()+
+			"P2 = "+p2+System.lineSeparator()+
+			"P3 = "+p3+System.lineSeparator()+
+			"P4 = "+p4+System.lineSeparator()+
+			"P5 = "+p5+System.lineSeparator()+
+			"P6 = "+p6+System.lineSeparator()+
+			"P7 = "+p7+System.lineSeparator();
+			
+	}
+}

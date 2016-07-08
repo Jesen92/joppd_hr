@@ -1,0 +1,156 @@
+package joppd;
+
+import javax.xml.bind.annotation.*;
+
+@XmlAccessorType(XmlAccessType.FIELD)
+public class ZdravstvenoOsiguranje {
+	@XmlElement(name = "P1")
+	private Double p1;
+	
+	@XmlElement(name = "P2")
+	private Double p2;
+	
+	@XmlElement(name = "P3")
+	private Double p3;
+	
+	@XmlElement(name = "P4")
+	private Double p4;
+	
+	@XmlElement(name = "P5")
+	private Double p5;
+	
+	@XmlElement(name = "P6")
+	private Double p6;
+	
+	@XmlElement(name = "P7")
+	private Double p7;
+	
+	@XmlElement(name = "P8")
+	private Double p8;
+	
+	@XmlElement(name = "P9")
+	private Double p9;
+	
+	@XmlElement(name = "P10")
+	private Double p10;
+	
+	@XmlElement(name = "P11")
+	private Double p11;
+	
+	@XmlElement(name = "P12")
+	private Double p12;
+	
+	public Double getP1() {
+		return p1;
+	}
+
+	public void setP1(Double p1) {
+		this.p1 = p1;
+	}
+
+	public Double getP2() {
+		return p2;
+	}
+
+	public void setP2(Double p2) {
+		this.p2 = p2;
+	}
+
+	public Double getP3() {
+		return p3;
+	}
+
+	public void setP3(Double p3) {
+		this.p3 = p3;
+	}
+
+	public Double getP4() {
+		return p4;
+	}
+
+	public void setP4(Double p4) {
+		this.p4 = p4;
+	}
+
+	public Double getP5() {
+		return p5;
+	}
+
+	public void setP5(Double p5) {
+		this.p5 = p5;
+	}
+
+	public Double getP6() {
+		return p6;
+	}
+
+	public void setP6(Double p6) {
+		this.p6 = p6;
+	}
+
+	public Double getP7() {
+		return p7;
+	}
+
+	public void setP7(Double p7) {
+		this.p7 = p7;
+	}
+	
+
+	public Double getP8() {
+		return p8;
+	}
+
+	public void setP8(Double p8) {
+		this.p8 = p8;
+	}
+
+	public Double getP9() {
+		return p9;
+	}
+
+	public void setP9(Double p9) {
+		this.p9 = p9;
+	}
+
+	public Double getP10() {
+		return p10;
+	}
+
+	public void setP10(Double p10) {
+		this.p10 = p10;
+	}
+
+	public Double getP11() {
+		return p11;
+	}
+
+	public void setP11(Double p11) {
+		this.p11 = p11;
+	}
+
+	public Double getP12() {
+		return p12;
+	}
+
+	public void setP12(Double p12) {
+		this.p12 = p12;
+	}
+
+	@Override
+	public String toString() {
+	return "P1 = "+p1+System.lineSeparator()+
+			"P2 = "+p2+System.lineSeparator()+
+			"P3 = "+p3+System.lineSeparator()+
+			"P4 = "+p4+System.lineSeparator()+
+			"P5 = "+p5+System.lineSeparator()+
+			"P6 = "+p6+System.lineSeparator()+
+			"P7 = "+p7+System.lineSeparator()+
+			"P8 = "+p8+System.lineSeparator()+
+			"P9 = "+p9+System.lineSeparator()+
+			"P10 = "+p10+System.lineSeparator()+
+			"P11 = "+p11+System.lineSeparator()+
+			"P12 = "+p12+System.lineSeparator();
+			
+	}
+}
