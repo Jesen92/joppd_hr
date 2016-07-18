@@ -4,11 +4,21 @@ import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
+
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(namespace="http://e-porezna.porezna-uprava.hr/sheme/Metapodaci/v2-0")
+
 public class Metapodaci {
 	
-	
+	public String getXmlns1() {
+		return xmlns1;
+	}
+
+	public void setXmlns1(String xmlns1) {
+		this.xmlns1 = xmlns1;
+	}
+
+	@XmlAttribute(name="xmlns")
+	private String xmlns1;
 	
 	@XmlElement(name= "Naslov")
 	private List <Naslov> naslov;
@@ -50,8 +60,6 @@ public class Metapodaci {
 		
 	}
 	
-
-
 	public List<Naslov> getNaslov() {
 		return naslov;
 	}

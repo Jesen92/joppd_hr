@@ -7,7 +7,7 @@ public class P {
 
 
 	@XmlElement(name= "P1")
-	private int p1;
+	private String p1;
 	
 	@XmlElement(name= "P2")
 	private String p2;
@@ -120,11 +120,11 @@ public class P {
 	@XmlElement(name= "P17")
 	private String p17;
 
-	public int getP1() {
+	public String getP1() {
 		return p1;
 	}
 
-	public void setP1(int p1) {
+	public void setP1(String p1) {
 		this.p1 = p1;
 	}
 

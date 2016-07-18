@@ -4,90 +4,90 @@ import javax.xml.bind.annotation.*;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class PredujamPoreza {
 	@XmlElement(name = "P1")
-	public Double p1;
+	public String p1;
 	
 	@XmlElement(name = "P11")
-	public Double p11;
+	public String p11;
 	
 	@XmlElement(name = "P12")
-	public Double p12;
+	public String p12;
 	
 	@XmlElement(name = "P2")
-	public Double p2;
+	public String p2;
 	
 	@XmlElement(name = "P3")
-	public Double p3;
+	public String p3;
 	
 	@XmlElement(name = "P4")
-	public Double p4;
+	public String p4;
 	
 	@XmlElement(name = "P5")
-	public Double p5;
+	public String p5;
 	
 	@XmlElement(name = "P6")
-	public Double p6;
+	public String p6;
 
-	public Double getP1() {
+	public String getP1() {
 		return p1;
 	}
 
-	public void setP1(Double p1) {
+	public void setP1(String p1) {
 		this.p1 = p1;
 	}
 
-	public Double getP11() {
+	public String getP11() {
 		return p11;
 	}
 
-	public void setP11(Double p11) {
+	public void setP11(String p11) {
 		this.p11 = p11;
 	}
 
-	public Double getP12() {
+	public String getP12() {
 		return p12;
 	}
 
-	public void setP12(Double p12) {
+	public void setP12(String p12) {
 		this.p12 = p12;
 	}
 
-	public Double getP2() {
+	public String getP2() {
 		return p2;
 	}
 
-	public void setP2(Double p2) {
+	public void setP2(String p2) {
 		this.p2 = p2;
 	}
 
-	public Double getP3() {
+	public String getP3() {
 		return p3;
 	}
 
-	public void setP3(Double p3) {
+	public void setP3(String p3) {
 		this.p3 = p3;
 	}
 
-	public Double getP4() {
+	public String getP4() {
 		return p4;
 	}
 
-	public void setP4(Double p4) {
+	public void setP4(String p4) {
 		this.p4 = p4;
 	}
 
-	public Double getP5() {
+	public String getP5() {
 		return p5;
 	}
 
-	public void setP5(Double p5) {
+	public void setP5(String p5) {
 		this.p5 = p5;
 	}
 
-	public Double getP6() {
+	public String getP6() {
 		return p6;
 	}
 
-	public void setP6(Double p6) {
+	public void setP6(String p6) {
 		this.p6 = p6;
 	}
 	
